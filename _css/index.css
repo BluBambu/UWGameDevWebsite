@@ -1,0 +1,16 @@
+.mdl-layout__content {
+    background: url("../_images/background.png") repeat fixed;
+}
+
+.demo-content, .mdl-card__actions, .mdl-card__media {
+    background: white;
+}
+.material-icons {
+    color: grey;
+}
+
+.title {
+    height: 400px;
+    color: white;
+    background: url('../_images/title.png') center / cover;
+}

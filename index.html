@@ -1,48 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="University of Washington Game Dev Website">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above meta tags must come first in the head -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="UW Game Development Club">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above meta tags must come first in the head -->
 
-        <title>UW Game Dev Club</title>
+    <title>UW GDC</title>
 
-        <!-- MDL CSS -->
-        <link href="css/material.min.css" rel="stylesheet">
+    <!-- MDL CSS -->
+    <link href="_css/material.min.css" rel="stylesheet">
 
-        <!-- MDL Icons -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- MDL Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-        <!-- Custom CSS -->
-        <link href="css/index.css" rel="stylesheet">
-    </head>
+    <!-- Custom CSS -->
+    <link href="_css/index.css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-    <!-- No header with the drawer staying open on larger displays -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">UW GDC</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Home</a>
-                <a class="mdl-navigation__link" href="">Info</a>
-                <a class="mdl-navigation__link" href="">Calendar</a>
-                <a class="mdl-navigation__link" href="">Projects</a>
-                <a class="mdl-navigation__link" href="">Contant</a>
-            </nav>
-        </div>
-        <main class="mdl-layout__content">
-            <div class="page-content">
-            <!-- Begin Main Content -->
-
-            <!-- End Main Content -->
-            </div>
-        </main>
+<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+<div class="mdl-layout mdl-js-layout">
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">UW GDC</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#home">Home</a>
+            <a class="mdl-navigation__link" href="#info">Info</a>
+            <a class="mdl-navigation__link" href="#calendar">Calendar</a>
+            <a class="mdl-navigation__link" href="#contact">Contact</a>
+        </nav>
     </div>
+    <main class="mdl-layout__content">
+        <div class="page-content"> <!-- Start content -->
 
-        <!-- MDL JS -->
-        <script src="js/material.min.js"></script>
-    </body>
+            <!-- Title card -->
+            <div class="demo-container mdl-grid" id="home">
+                <!-- Left padding -->
+                <div class="mdl-cell mdl-cell--2-col"></div>
+
+                <div class="demo-content mdl-shadow--2dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                    <div class="mdl-card__title title">
+                        <h2 class="mdl-card__title-text">University of Washington Game Development Club</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info card -->
+            <div class="demo-container mdl-grid" id="info">
+                <!-- Left padding -->
+                <div class="mdl-cell mdl-cell--2-col"></div>
+
+                <div class="demo-content mdl-shadow--2dp content mdl-cell mdl-cell--8-col">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">About</h2>
+                    </div>
+                    <div class="mdl-card__media">
+
+                        <div class="demo-container mdl-grid">
+                            <div class="demo-content content mdl-cell mdl-cell--6-col">
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Who Is This Club For?</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Anyone who's interested in game development! Programming or artistic skills aren't required
+                                    at all. Though they might be helpful, they certainly aren't necessary for getting a general
+                                    idea of how things work.
+                                </div>
+                            </div>
+
+                            <div class="demo-content content mdl-cell mdl-cell--6-col">
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Where and When?</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    TBD, we'll be back in Fall.
+                                    <br>
+                                    <br>
+                                    Make sure to join our Facebook group for updates.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                               href="https://www.facebook.com/groups/uwgamedevc/">
+                                Facebook Page
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calendar card -->
+            <div class="demo-container mdl-grid" id="calendar">
+                <!-- Left padding -->
+                <div class="mdl-cell mdl-cell--2-col"></div>
+
+                <div class="demo-content mdl-color--white mdl-shadow--2dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Calendar</h2>
+                    </div>
+
+                    <div class="mdl-card__media">
+
+                        <div class="demo-container mdl-grid">
+                            <div class="demo-content mdl-color--white  content mdl-color-text--grey-800 mdl-cell mdl-cell--6-col">
+                                <div id="project_title_high_grade_miner" class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">TBD</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    We'll be back in Fall.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact card -->
+            <div class="demo-container mdl-grid" id="contact">
+                <div class="mdl-cell mdl-cell--2-col"></div>
+
+
+                <div class="demo-content mdl-color--white mdl-shadow--2dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Contact</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Got an idea for a club meeting or want to be a speaker? Shoot an email over to Nick.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                           href="mailto:nickykaman@gmail.com">
+                            Email Nick (Club President)
+                        </a>
+                        |
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                           href="mailto:mburns@cs.washington.edu">
+                            Email Matthew (Club Adviser)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End content -->
+    </main>
+</div>
+
+<!-- MDL JS -->
+<script src="_js/material.min.js"></script>
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Custom JS -->
+<script src="_js/index.js"></script>
+</body>
 </html>
