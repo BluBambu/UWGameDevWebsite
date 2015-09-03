@@ -15,6 +15,13 @@
     background: url('../_images/title.png') center / cover ;
 }
 
+.mdl-card__supporting-text {
+    font-size: 18px;
+    line-height: normal;
+}
+
+/* Projects */
+
 #project_ghost_girl_kitten_title {
     background: url('../_images/projects/ghostgirlkitten.png') center / cover ;
 }
