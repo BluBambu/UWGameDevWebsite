@@ -5,6 +5,11 @@
 .demo-content, .mdl-card__actions, .mdl-card__media {
     background: white;
 }
+
+.mdl-card__supporting-text {
+    color: rgb(76, 76, 76);
+}
+
 .material-icons {
     color: grey;
 }
@@ -18,6 +23,10 @@
 .mdl-card__supporting-text {
     font-size: 18px;
     line-height: normal;
+}
+
+.header_border {
+    border-bottom: 1px solid grey;
 }
 
 /* Projects */
