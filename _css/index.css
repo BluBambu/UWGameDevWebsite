@@ -10,7 +10,7 @@
 }
 
 .title {
-    height: 400px;
+    height: 30vh;
     color: white;
-    background: url('../_images/title.png') center / cover;
+    background: url('../_images/title.png') center / cover ;
 }
