@@ -9,10 +9,10 @@ $(".mdl-navigation__link").each(function(){
 $(function(){
     $('a.mdl-navigation__link').click(function(e){
         e.preventDefault();
-        var speed = 1000;
+        var speed = 500;
         var href= $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().top;
-        $(".mdl-layout__content").animate({scrollTop:position}, speed, "swing");
+        $(".mdl-layout__content").animate({scrollTop:position}, speed, "linear");
     });
 });
