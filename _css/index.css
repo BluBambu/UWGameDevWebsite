@@ -14,3 +14,33 @@
     color: white;
     background: url('../_images/title.png') center / cover ;
 }
+
+#project_ghost_girl_kitten_title {
+    background: url('../_images/projects/ghostgirlkitten.png') center / cover ;
+}
+
+#project_peng_sim_title {
+    background: url('../_images/projects/peng_simulator.png') center / cover ;
+}
+
+#project_your_title {
+    background: url(https://placeholdit.imgix.net/~text?txtsize=16&txt=350%C3%9765&w=350&h=65) center / cover ;
+
+}
+
+#project_super_run_title {
+    background: url('../_images/projects/super_run.png') center / cover ;
+}
+
+#project_train_game_title {
+    background: url('../_images/projects/train_game.png') center / cover ;
+}
+
+#project_window_cleaner_title {
+    background: url('../_images/projects/window_cleaner.png') center / cover ;
+}
+
+.project_title {
+    height: 20vh;
+    color: white;
+}
