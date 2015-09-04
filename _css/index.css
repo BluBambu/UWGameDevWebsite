@@ -6,6 +6,10 @@
     background: white;
 }
 
+.mdl-card__actions .mdl-button {
+    text-transform: capitalize;
+}
+
 .mdl-card__supporting-text {
     color: rgb(76, 76, 76);
 }
