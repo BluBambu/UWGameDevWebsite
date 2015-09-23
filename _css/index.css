@@ -11,26 +11,45 @@
 }
 
 .mdl-card__supporting-text {
-    color: rgb(76, 76, 76);
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    line-height: normal;
 }
 
 .material-icons {
     color: grey;
 }
 
-.title {
+/* Main Title */
+
+.main_title {
     height: 30vh;
     color: white;
+    text-shadow: 2px 2px 2px black;
     background: url('../_images/title.png') center / cover ;
 }
 
-.mdl-card__supporting-text {
-    font-size: 18px;
-    line-height: normal;
+/* Header Titles */
+.header_title {
+    color: white;
 }
 
-.header_border {
-    border-bottom: 1px solid grey;
+/* Colored Backgrounds */
+
+.red_background {
+    background-color: #F44336;
+}
+
+.green_background {
+    background-color: #64DD17;
+}
+
+.yellow_background {
+    background-color: #FFD600;
+}
+
+.blue_background {
+    background-color: #2196F3;
 }
 
 /* Projects */
@@ -61,6 +80,7 @@
 }
 
 .project_title {
-    height: 20vh;
+    height: 200px;
+    text-shadow: 2px 2px 2px black;
     color: white;
 }
